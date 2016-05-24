@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AE4D4DD7-2A9D-498E-8063-F2AEE9F43ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD89B969-E515-4D34-BE43-B36A8C7B0CEE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Day07_Routing1", "src\Day07_Routing1\Day07_Routing1.xproj", "{4C6DF9C6-2BF4-4EE3-BFD0-63FDEB156BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6DF9C6-2BF4-4EE3-BFD0-63FDEB156BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6DF9C6-2BF4-4EE3-BFD0-63FDEB156BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6DF9C6-2BF4-4EE3-BFD0-63FDEB156BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6DF9C6-2BF4-4EE3-BFD0-63FDEB156BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C6DF9C6-2BF4-4EE3-BFD0-63FDEB156BEB} = {AE4D4DD7-2A9D-498E-8063-F2AEE9F43ECD}
+	EndGlobalSection
+EndGlobal

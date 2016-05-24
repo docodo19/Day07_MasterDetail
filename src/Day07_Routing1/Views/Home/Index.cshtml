@@ -1,0 +1,23 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" ng-app="MyApp">
+<head>
+    <title></title>
+    <!-- set the base ref to '/' when using html5 mode -->
+    <base href="/" />  
+</head>
+<body>
+    <a href="/">Home</a> | 
+    <a href="/about">About</a> |
+    <a href="/products">Products</a>
+
+    <ui-view></ui-view>
+
+
+    <script src="~/lib/angular/angular.min.js"></script>
+    <script src="~/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="~/ngApp/app.js"></script>
+    <script src="~/ngApp/controllers/homeController.js"></script>
+    <script src="~/ngApp/controllers/aboutController.js"></script>
+    <script src="~/ngApp/controllers/productsController.js"></script>
+    <script src="~/ngApp/controllers/productDetailsController.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿<h1>This is the Products State</h1>
+<hr />
+<h2>List of Products</h2>
+
+<ul>
+    <li ng-repeat="product in controller.products">
+        <a href="/products/{{product.id}}">{{product.name}}</a>
+    </li>
+</ul>
