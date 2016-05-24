@@ -12,8 +12,8 @@ var App;
                 ];
                 var productId = $stateParams['id'];
                 // Using filter method
-                var filteredProducts = this.products.filter(function (p) {
-                    return p.id == productId;
+                var filteredProducts = this.products.filter(function (element) {
+                    return element.id == productId;
                 });
                 this.product = filteredProducts[0];
                 // Using for loop
